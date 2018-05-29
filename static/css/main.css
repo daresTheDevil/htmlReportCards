@@ -1,0 +1,28 @@
+.navbar {
+  background-color: white;
+  min-height: 4rem;
+  position: relative;
+  z-index: 30;
+}
+
+.navbar-item {
+  img-max-height: 4rem;
+}
+.is-size-tile {
+  font-size: 3.5rem !important;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+.is-size-hero {
+  font-size: 9rem !important;
+  line-height: 7rem;
+  font-weight: 900;
+}
+.has-left-padding {
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .has-left-padding {
+    padding-left: 0px;
+  }
