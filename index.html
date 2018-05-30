@@ -12,179 +12,206 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="static/fonts/fonts.css" />
   <link rel="stylesheet" href="static/css/bulmamod.css" />
-  <link rel="stylesheet" href="static/css/main.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 
-</head>
-<body>
-  <!-- begin hero section -->
-  <nav class="navbar is-primary is-bold">
-    <div class="container">
-      <div class="navbar-brand">
-        <img src="static/img/mde-logo-white-header.png" class="navbar-item">
-        <!-- HAMBURGLER BUTTON -->
-        <a role="button" class="navbar-burger has-text-light" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <!-- HAMBURGLER DROP DOWN -->
-      <div id="navMenu" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item">About Us</a>
-          <a class="navbar-item">State Data</a>
-          <a class="navbar-item" href="school.html">School Page</a>
-          <a class="navbar-item" hfre="english-perf.html">Details</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- Start Hero section...add 'is-medium' or 'is-large' to section to increase padding -->
-  <section class="hero is-primary">
-    <div class="hero-body">
+  <script type="text/javascript">
+    $(function(){
+      $(".typed").typed({
+        strings: ["northwest rankin", "jackson public", "desoto high"],
+          // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+          stringsElement: null,
+          // typing speed
+          typeSpeed: 50,
+          // time before typing starts
+          startDelay: 1200,
+          // backspacing speed
+          backSpeed: 20,
+          // time before backspacing
+          backDelay: 200,
+          // loop
+          loop: true,
+          // false = infinite
+          loopCount: 1,
+          // show cursor
+          showCursor: true,
+          // character for cursor
+          cursorChar: "|",
+          // attribute to type (null == text)
+          attr: null,
+          // either html or text
+          contentType: 'html',
+          // call when done callback function
+          callback: function() {},
+          // starting callback function before each string
+          preStringTyped: function() {},
+          //callback for every typed string
+          onStringTyped: function() {},
+          // callback for reset
+          resetCallback: function() {}
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- begin hero section -->
+    <nav class="navbar is-primary is-bold">
       <div class="container">
-        <div class="columns is-vcentered">
-          <!-- 6 column wide with one column spacing at left -->
-          <div class="column is-6 is-offset-1">
-            <p class="title is-2">DATA THAT MATTERS.</p>
-            <p class="subtitle is-4">Search for school or district data below.</p>
-            <div class="field">
-              <p class="control has-icons-left">
-                <input class="input is-static is-large" type="text" placeholder="search here">
-                <span class="icon is-large is-left has-text-light">
-                  <i class="fas fa-search fa-2x"></i>
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class="column is-4">
-            <figure class="is-5by3">
-              <img src="static/img/web.svg">
-            </figure>
+        <div class="navbar-brand">
+          <img src="static/img/mde-logo-white-header.png" class="navbar-item">
+          <!-- HAMBURGLER BUTTON -->
+          <a role="button" class="navbar-burger has-text-light" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <!-- HAMBURGLER DROP DOWN -->
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">About Us</a>
+            <a class="navbar-item">State Data</a>
+            <a class="navbar-item" href="school.html">School Page</a>
+            <a class="navbar-item" hfre="english-perf.html">Details</a>
           </div>
         </div>
       </div>
-    </div> <!-- end hero body -->
-
-    <!-- begin middle section -->
-    <section class="section has-background-light is-medium">
-      <div class="container">
-        <div class="columns">
-          <!-- 6 column wide with 3 column spacing at left-->
-          <div class="column is-6 is-offset-3">
-            <h1 class="title has-text-centered has-text-dark">Statewide Accountability Performance Results</h1>
-            <p class="subtitle has-text-centered is-5 has-text-dark">The Mississippi Statewide Accountability System is
-              a single “A” through “F” school and district accountability system. Grades are based on student achievement,
-              student growth, student participation in testing, and other academic measures.</p>
-            </div>
-          </div>
-          <div class="columns has-text-centered">
-            <div class="column is-one-fifth is-offset-one-fifth has-text-dark">
-              <img src="static/img/statescore.svg" width="50%">
-              <h1 class="title has-text-dark">State Average</h1>
-              <p class="subtitle is-5 has-text-dark">Learn more about the state results and subgroup breakdowns.</p>
-            </div>
-            <div class="column is-one-fifth has-text-dark">
-              <img src="static/img/download.svg" width="50%">
-              <h1 class="title has-text-dark">State Average</h1>
-              <p class="subtitle is-5 has-text-dark">Download the full dataset in spreadsheet format.</p>
-            </div>
-            <div class="column is-one-fifth has-text-dark">
-              <img src="static/img/guide.svg" width="50%">
-              <h1 class="title has-text-dark">Users Guide</h1>
-              <p class="subtitle is-5 has-text-dark">Get an in-depth understanding of how to use this site.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section has-background-primary has-text-light is-medium">
-        <div class="container has-text-centered">
-          <div class="columns">
-            <div class="column is-6 is-offset-3">
-              <h1 class="title has-text-light">The Data</h1>
-              <h1 class="subtitle is-4 has-text-light">
-                Every school and District has an overall accountability grade and score. The data is accompanied by assessment, teacher, and environment data that gives an overview of school performance with the ability to link to more detailed data.
-              </h1>
-            </div>
-          </div>
-          <div class="columns has-text-centered">
-            <div class="column is-10 is-offset-1">
-              <br /><img src="static/img/lower.svg">
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="footer has-background-dark">
-        <div class="container has-text-centered">
-          <div class="columns has-text-centered">
-            <div class="column"></div>
-            <div class="column is-3">
-              <img src="static/img/mde-logo-white-header.png">
-              <a class="tags has-addons is-centered">
-                <a class="tag is-dark is-medium"><i class="fab fa-twitter fa-2x"></i></a>
-                <a class="tag is-dark is-medium"><i class="fab fa-facebook fa-2x"></i></a>
-                <a class="tag is-dark is-medium"><i class="fab fa-youtube fa-2x"></i></a>
-                <a class="tag is-dark is-medium"><i class="fab fa-github fa-2x"></i></a>
-              </span>
-            </div>
-            <div class="column is-2">
-              <br>
-              <h1 class="title is-4">ABOUT</h1>
-              <p class="is-size-5">Our Mission</p>
-              <p class="is-size-5">Blog</p>
-            </div>
-            <div class="column is-2">
-              <br>
-              <h1 class="title is-4">SUPPORT</h1>
-              <p class="is-size-5">FAQ</p>
-              <p class="is-size-5">Privacy Policy</p>
-            </div>
-            <div class="column is-2">
-              <br>
-              <h1 class="title is-4">CONTACT</h1>
-              <p class="is-size-5">Email</p>
-            </div>
-            <div class="column"></div>
-          </div><br>
-          <div class="columns">
-            <div class="column is-6 is-offset-3">
-              <h1 class="subtitle is-6">This website is an MIT licensed open source project of The Mississippi Department
-                of Education's Office of Technology & Strategic Services with the support of the Office of Accountability
-                and the Office of Public Affairs; built with <span class="has-text-info"><i class="fa fa-heart"></i></span> and <a class="has-text-info has-text-weight-semibold">.NET Core</a></h1>
+    </nav>
+    <!-- Start Hero section...add 'is-medium' or 'is-large' to section to increase padding -->
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <!-- 6 column wide with one column spacing at left -->
+            <div class="column is-6 is-offset-1">
+              <p class="title is-2">DATA THAT MATTERS.</p>
+              <p class="subtitle is-4">Search for school or district data below.</p>
+              <div class="field has-addons">
+                <p class="control">
+                  <input class="input is-large typed is-rounded" type="text">
+                  <div class="control">
+                    <a class="button is-info is-large">Search</a>
+                  </div>
+                </p>
               </div>
             </div>
-
+            <div class="column is-4">
+              <figure class="is-5by3">
+                <img src="static/img/web.svg">
+              </figure>
+            </div>
           </div>
-        </footer>
+        </div>
+      </div> <!-- end hero body -->
 
-        <!-- post load scripts -->
-        <script type="text/javascript">
-          document.addEventListener('DOMContentLoaded', function () {
+      <!-- begin middle section -->
+      <section class="section has-background-light is-medium">
+        <div class="container">
+          <div class="columns">
+            <!-- 6 column wide with 3 column spacing at left-->
+            <div class="column is-6 is-offset-3">
+              <h1 class="title has-text-centered has-text-dark">Statewide Accountability Performance Results</h1>
+              <p class="subtitle has-text-centered is-5 has-text-dark">The Mississippi Statewide Accountability System is
+                a single “A” through “F” school and district accountability system. Grades are based on student achievement,
+                student growth, student participation in testing, and other academic measures.</p>
+              </div>
+            </div>
+            <div class="columns has-text-centered">
+              <div class="column is-one-fifth is-offset-one-fifth has-text-dark">
+                <img src="static/img/statescore.svg" width="50%">
+                <h1 class="title has-text-dark">State Average</h1>
+                <p class="subtitle is-5 has-text-dark">Learn more about the state results and subgroup breakdowns.</p>
+              </div>
+              <div class="column is-one-fifth has-text-dark">
+                <img src="static/img/download.svg" width="50%">
+                <h1 class="title has-text-dark">State Average</h1>
+                <p class="subtitle is-5 has-text-dark">Download the full dataset in spreadsheet format.</p>
+              </div>
+              <div class="column is-one-fifth has-text-dark">
+                <img src="static/img/guide.svg" width="50%">
+                <h1 class="title has-text-dark">Users Guide</h1>
+                <p class="subtitle is-5 has-text-dark">Get an in-depth understanding of how to use this site.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section has-background-primary has-text-light is-medium">
+          <div class="container has-text-centered">
+            <div class="columns">
+              <div class="column is-6 is-offset-3">
+                <h1 class="title has-text-light">The Data</h1>
+                <h1 class="subtitle is-4 has-text-light">
+                  Every school and District has an overall accountability grade and score. The data is accompanied by assessment, teacher, and environment data that gives an overview of school performance with the ability to link to more detailed data.
+                </h1>
+              </div>
+            </div>
+            <div class="columns has-text-centered">
+              <div class="column is-10 is-offset-1">
+                <br /><img src="static/img/lower.svg">
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer has-background-dark">
+          <div class="container has-text-centered">
+            <div class="columns has-text-centered">
+              <div class="column"></div>
+              <div class="column is-3">
+                <img src="static/img/mde-logo-white-header.png">
+                <a class="tags has-addons is-centered">
+                  <a class="tag is-dark is-medium"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a class="tag is-dark is-medium"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a class="tag is-dark is-medium"><i class="fab fa-youtube fa-2x"></i></a>
+                  <a class="tag is-dark is-medium"><i class="fab fa-github fa-2x"></i></a>
+                </span>
+              </div>
+              <div class="column is-2"><br>
+                <h1 class="title is-4">ABOUT</h1>
+                <p class="is-size-5">Our Mission</p>
+                <p class="is-size-5">Blog</p>
+              </div>
+              <div class="column is-2"><br>
+                <h1 class="title is-4">SUPPORT</h1>
+                <p class="is-size-5">FAQ</p>
+                <p class="is-size-5">Privacy Policy</p>
+              </div>
+              <div class="column is-2"><br>
+                <h1 class="title is-4">CONTACT</h1>
+                <p class="is-size-5">Email</p>
+              </div>
+              <div class="column"></div>
+            </div><br>
+            <div class="columns">
+              <div class="column is-6 is-offset-3">
+                <h1 class="subtitle is-6">This website is an MIT licensed open source project of The Mississippi Department
+                  of Education's Office of Technology & Strategic Services with the support of the Office of Accountability
+                  and the Office of Public Affairs; built with <span class="has-text-info"><i class="fa fa-heart"></i></span> and <a class="has-text-info has-text-weight-semibold">.NET Core</a></h1>
+                </div>
+              </div>
 
-            // Get all "navbar-burger" elements
-            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            </div>
+          </footer>
 
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
-
-              // Add a click event on each of them
-              $navbarBurgers.forEach(function ($el) {
-                $el.addEventListener('click', function () {
-
-                  // Get the target from the "data-target" attribute
-                  var target = $el.dataset.target;
-                  var $target = document.getElementById(target);
-
-                  // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-                  $el.classList.toggle('is-active');
-                  $target.classList.toggle('is-active');
-
+          <!-- post load scripts -->
+          <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+              // Get all "navbar-burger" elements
+              var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+              // Check if there are any navbar burgers
+              if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(function ($el) {
+                  $el.addEventListener('click', function () {
+                    // Get the target from the "data-target" attribute
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+                    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                  });
                 });
-              });
-            }
-
-          });
-        </script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-      </body>
-      </html>
+              }});
+          </script>
+          <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        </body>
+        </html>
