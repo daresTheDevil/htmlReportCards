@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="258px" viewBox="0 0 466 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ell-column</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="District-ELL" transform="translate(-666.000000, -742.000000)">
+            <g id="ell-column" transform="translate(666.000000, 740.000000)">
+                <text id="State" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="101.5" y="261">State</tspan>
+                </text>
+                <text id="20" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="0" y="206">20</tspan>
+                </text>
+                <text id="40" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="0" y="143">40</tspan>
+                </text>
+                <text id="60" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="0" y="80">60</tspan>
+                </text>
+                <text id="80" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="0" y="17">80</tspan>
+                </text>
+                <text id="Long-term-Goal-70%" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="169" y="38">Long term Goal 70%</tspan>
+                </text>
+                <text id="District" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="218" y="261">District</tspan>
+                </text>
+                <text id="Interim-Goal" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="18" fill="#4A4A4A">
+                    <tspan x="323" y="261">Interim Goal</tspan>
+                </text>
+                <rect id="Rectangle-7" fill="#F7C24D" x="66" y="87" width="115" height="149"></rect>
+                <rect id="Rectangle-7" fill="#10AF95" x="191" y="65" width="115" height="171"></rect>
+                <rect id="Rectangle-7" fill="#65C3EC" x="316" y="65" width="115" height="171"></rect>
+                <path d="M36.2807784,235.592561 L462.583821,235.592561" id="Line-2" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M36.2807784,44.5925609 L462.583821,44.5925609" id="Line-2" stroke="#D8D8D8" stroke-width="5" stroke-linecap="square"></path>
+                <text id="55%" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" line-spacing="18" fill="#333333">
+                    <tspan x="99.5" y="114">55%</tspan>
+                </text>
+                <text id="60%" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" line-spacing="18" fill="#333333">
+                    <tspan x="218" y="94">60%</tspan>
+                </text>
+                <text id="60%" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" line-spacing="18" fill="#333333">
+                    <tspan x="331.898438" y="85.6523438">60%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
